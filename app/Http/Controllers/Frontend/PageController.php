@@ -19,6 +19,10 @@ class PageController extends Controller
         return view('frontend.pages.product');
     }
 
+    public function indirimdekiurunler(){
+        return view('frontend.pages.product');
+    }
+
     public function urundetay(){
         return view('frontend.pages.products');
     }
