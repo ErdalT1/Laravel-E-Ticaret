@@ -1,4 +1,4 @@
-# Laravel-Cafe
+# Laravel-E-ticaret
 
 Bu proje bir Laravel uygulamasıdır. Aşağıdaki adımları izleyerek projeyi yerel ortamda Laragon kullanarak çalıştırabilirsiniz.
 
@@ -22,8 +22,8 @@ Proje için aşağıdaki gereksinimlere sahip olmanız gerekmektedir:
 
    ```bash
    cd C:/laragon/www
-   git clone https://github.com/ErdalT1/Laravel.git
-   cd Laravel
+   git clone https://github.com/ErdalT1/Laravel-E-ticaret.git
+   cd Laravel-E-ticaret
 3. **Bağımlılıkları yükleyin:**
    ```bash
    composer install
