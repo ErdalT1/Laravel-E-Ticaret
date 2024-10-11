@@ -21,29 +21,29 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="">
             <div class="icon mr-4 align-self-start">
-              <span class="icon-truck"></span>
+              <span class="{{$about->text_1icon}}"></span>
             </div>
             <div class="text">
-              <h2 class="text-uppercase">Ücretsiz Kargo</h2>
-              <p>Ürünlerinizi güvenli ve hızlı bir şekilde adresinize teslim edelim! Hem de ücretsiz bir şekilde.</p>
+              <h2 class="text-uppercase">{{$about->text_1}}</h2>
+              <p>{{$about->text_1_content}}</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="100">
             <div class="icon mr-4 align-self-start">
-              <span class="icon-refresh2"></span>
+              <span class="{{$about->text_2icon}}"></span>
             </div>
             <div class="text">
-              <h2 class="text-uppercase">Ücretsiz İade</h2>
-              <p>Müşteri daima haklıdır! Beğenmediğiniz, eksik, hatalı ve kargolama sorunu yaşadığınız tüm ürünleri teslim tarihinden 5 iş günü içerisinde ücretsiz iade edebilirsiniz!</p>
+              <h2 class="text-uppercase">{{$about->text_2}}</h2>
+              <p>{{$about->text_2content}}</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="200">
             <div class="icon mr-4 align-self-start">
-              <span class="icon-help"></span>
+              <span class="{{$about->text_3icon}}"></span>
             </div>
             <div class="text">
-              <h2 class="text-uppercase">Müşteri Hizmetleri</h2>
-              <p>"212-21-12" bu numaradan istediğiniz zaman ürünleriniz hakkında müşteri temsilcimizle görüşebilir, sorunlarınızı ve görüşlerinizi iletebilirsiniz.</p>
+              <h2 class="text-uppercase">{{$about->text_3}}</h2>
+              <p>{{$about->text_3content}}</p>
             </div>
           </div>
         </div>
@@ -175,7 +175,7 @@
         </div>
         <div class="row align-items-center">
           <div class="col-md-12 col-lg-7 mb-5">
-            <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img-fluid rounded"></a>
+            <a href="#"><img src="{{$about->image ?? 'images/blog_1.jpg'}}" alt="Image placeholder" class="img-fluid rounded"></a>
           </div>
           <div class="col-md-12 col-lg-5 text-center pl-md-5">
             <h2><a href="{{route('indirimdekiurunler')}}">Sepette %50 indirim fırsatını kaçırma!</a></h2>
